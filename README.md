@@ -4,9 +4,9 @@ Wiki Search is a front-end application that utilizes the Wikipedia API to retrie
 
 The application provides users with a simple and intuitive interface to enter their search queries. Upon submitting a query, the application fetches relevant data from Wikipedia using the provided API. Users can then explore the retrieved information and gain insights on their desired topics.
 
-By building this project, we aim to strengthen our understanding of Next.js and enhance our proficiency in developing web applications. Through the utilization of industry best practices, we strive to deliver a high-quality and efficient solution.
+By building this project, I aim to strengthen my understanding of Next.js and enhance my proficiency in developing web applications. Through the utilization of industry best practices, I strive to deliver a high-quality and efficient solution.
 
-We welcome contributions, feedback, and suggestions to improve the Wiki Search application. Let's collaborate and create a powerful tool for accessing information through the Wikipedia API.
+I welcome contributions, feedback, and suggestions to improve the Wiki Search application. Let's collaborate and create a powerful tool for accessing information through the Wikipedia API.
 
 Happy searching!
 
