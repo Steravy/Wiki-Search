@@ -30,10 +30,11 @@ To run the Wiki Search application locally, follow these steps:
 
 Please ensure that you have Node.js and npm (Node Package Manager) installed on your system.
 
+## Authors
+
+- [@Steravy](https://www.github.com/Steravy)
+- With the guidance of [@gitdagray](https://github.com/gitdagray) during his Next.Js course
+
 ## Contribution
 
 Contributions to the Wiki Search project are highly appreciated. If you encounter any issues or have ideas for enhancements, feel free to open an issue or submit a pull request. Together, we can make Wiki Search even better!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute it according to your needs.
