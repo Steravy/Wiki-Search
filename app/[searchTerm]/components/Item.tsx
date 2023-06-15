@@ -7,8 +7,8 @@ type Props = {
 export default function Item({ result }: Props) {
     
     const itemTextCol = (
-        <div className="flex flex-col justify-center">
-            <h2>
+        <div className="flex flex-col justify-center ">
+            <h2 className='mb-1' >
                 <Link href={`https://en.wikipedia.org/?curid=${result.pageid}`} target="_blank"
                     className="text-xl font-bold underline">
                     {result.title}
@@ -20,7 +20,7 @@ export default function Item({ result }: Props) {
 
     const content = result?.thumbnail?.source
         ? (
-            <article className="m-4 max-w-lg">
+            <article className="bg-slate-200 p-4 my-4 max-w-lg rounded-lg ">
                 <div className="flex flex-row gap-4">
                     <div className="flex flex-col justify-center">
                         <img
@@ -37,7 +37,7 @@ export default function Item({ result }: Props) {
 
         )
         : (
-            <article className="m-4 max-w-lg">
+            <article className="my-4 p-4 max-w-lg bg-slate-200 rounded-lg ">
                 {itemTextCol}
             </article>
         )

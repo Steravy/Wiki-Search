@@ -1,0 +1,12 @@
+.imput {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid whitesmoke;
+    color: whitesmoke;
+
+}
+
+.imput:focus {
+    border-bottom: 2px solid whitesmoke;
+
+}

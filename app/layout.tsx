@@ -17,10 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-slate-800" >
+      <body className="bg-slate-800 " >
         <Navbar />
 
-        {children}
+        <section className="px-6" >
+          {children}
+        </section>
       </body>
     </html>
   )
