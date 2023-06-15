@@ -33,7 +33,7 @@ Please ensure that you have Node.js and npm (Node Package Manager) installed on 
 ## Authors
 
 - [@Steravy](https://www.github.com/Steravy)
-- With the guidance of [@gitdagray](https://github.com/gitdagray) during his Next.Js course
+- With the guidance of [@gitdagray](https://github.com/gitdagray) during his [Next.Js course](https://www.youtube.com/watch?v=843nec-IvW0&t=5331s)
 
 ## Contribution
 
