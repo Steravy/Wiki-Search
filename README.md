@@ -1,38 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Wiki Search
 
-## Getting Started
+Wiki Search is a front-end application that utilizes the Wikipedia API to retrieve data based on user search inputs. This mini project serves as a practical exercise to reinforce Next.js concepts and implement best practices.
 
-First, run the development server:
+The application provides users with a simple and intuitive interface to enter their search queries. Upon submitting a query, the application fetches relevant data from Wikipedia using the provided API. Users can then explore the retrieved information and gain insights on their desired topics.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+By building this project, we aim to strengthen our understanding of Next.js and enhance our proficiency in developing web applications. Through the utilization of industry best practices, we strive to deliver a high-quality and efficient solution.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We welcome contributions, feedback, and suggestions to improve the Wiki Search application. Let's collaborate and create a powerful tool for accessing information through the Wikipedia API.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Happy searching!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Key Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Utilizes the Wikipedia API to fetch data based on user search inputs.
+- Provides a user-friendly interface for entering search queries.
+- Displays relevant information retrieved from Wikipedia.
+- Implements Next.js concepts and follows best practices in development.
+- Promotes efficient and seamless searching of Wikipedia content.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+To run the Wiki Search application locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository: `git clone https://github.com/your-username/wiki-search.git`
+2. Navigate to the project directory: `cd wiki-search`
+3. Install the dependencies: `npm install`
+4. Start the application: `npm run dev`
+5. Open your web browser and visit `http://localhost:3000` to access the Wiki Search application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Please ensure that you have Node.js and npm (Node Package Manager) installed on your system.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contribution
 
-## Deploy on Vercel
+Contributions to the Wiki Search project are highly appreciated. If you encounter any issues or have ideas for enhancements, feel free to open an issue or submit a pull request. Together, we can make Wiki Search even better!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute it according to your needs.
