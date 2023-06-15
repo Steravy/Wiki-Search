@@ -3,8 +3,10 @@ import Navbar from './components/Navbar';
 
 
 export const metadata = {
-  title: 'Just a Project',
-  description: 'Praticing Next.js',
+
+  title: 'Wiki Search',
+  description: 'Search for Wikipedia articles.',
+
 }
 
 
@@ -17,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-slate-800" >
         <Navbar />
-        
+
         {children}
       </body>
     </html>
