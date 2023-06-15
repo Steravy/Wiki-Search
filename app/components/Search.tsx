@@ -3,6 +3,7 @@
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 
+
 export default function Search() {
 
     const [search, setSearch] = useState('');

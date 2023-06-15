@@ -1,3 +1,4 @@
+import { cookies } from "next/headers";
 
 
 const getWikiResults = async (searchTerm: string) => {
@@ -16,7 +17,14 @@ const getWikiResults = async (searchTerm: string) => {
         origin: '*',
     })
 
-    const response = await fetch('https://en.wikipedia.org/w/api.php?' + searchParams)
+    const response = await fetch('https://en.wikipedia.org/w/api.php?' + searchParams, {
+        headers: {
+            Cookie: cookies()
+                .getAll()
+                .map(({ name, value }) => `${name}=${value}`)
+                .join("; "),
+        },
+    })
 
     return response.json()
 }
